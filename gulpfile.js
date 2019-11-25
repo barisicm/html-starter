@@ -20,7 +20,7 @@ gulp.task('serve', function() {
     });
 
     gulp.watch('*.html').on('change', reload);
-    gulp.watch('./css/style.min.css').on('change', reload);
+    gulp.watch('./css/main.min.css').on('change', reload);
     gulp.watch('./sass/**/*.scss', gulp.series('sass'));
 });
 
